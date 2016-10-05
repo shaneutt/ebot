@@ -1,0 +1,8 @@
+-sname ebot
+
+-setcookie ebot_cookie
+
+-mode interactive
+
++K true
++A30

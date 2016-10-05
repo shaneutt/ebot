@@ -1,0 +1,25 @@
+{application, ebot,
+ [{description, "A modular bot for the Slack chat platform"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ebot_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    crypto,
+    ssl,
+    jsx,
+    slacker,
+    hackney,
+    inets,
+    websocket_client,
+    mochiweb_util,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
