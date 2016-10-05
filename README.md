@@ -3,7 +3,7 @@ ebot
 
 A modular bot for the Slack chat platform
 
-Description
+About
 ---
 
 Ebot is a Slack chat bot that can be extended via modules uploaded as code snippets. You can message Ebot directly (or
