@@ -49,6 +49,10 @@ me: @ebot my_test_command test_fun Hello!
 ebot: I got your string: Hello!
 ```
 
+From here the sky is the limit. Upload your own modules to create help files, to commit all loaded modules to git repositories, to allow ebot to replicate itself and start up other bots in the same Erlang VM. The point of ebot is to provide a framework for you to build your Slack bot to suit your needs.
+
+Ebot currently provides no form of security you will need to implement that yourself.
+
 Requirements
 -----
 
@@ -57,7 +61,7 @@ Requirements
 
 -----
 
-Configuration is currenty (TODO) done via `sys.config`:
+Configuration is currenty done via `sys.config`:
 
 ```erlang
 [
